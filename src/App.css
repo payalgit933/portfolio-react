@@ -1,0 +1,120 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+/* body {
+  background-image: url('/bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: -100px;
+} */
+
+
+.logo {
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-top: 10px;
+  height: 100px;
+  border: 2px rgba(60, 255, 0, 0.973) solid;
+  box-shadow: 0px 0px 50px 20px rgba(0, 17, 255, 0.808);
+  background-color: #bfdbfe;
+  z-index: 1000;
+}
+
+.self {
+  margin: -10px 0px 0px 150px;
+}
+.intro {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  padding-top: 100px;
+}
+.button {
+  margin: 30px 0px 0px 0px;
+}
+.button2 {
+  margin: 0px 0px 0px 0px;
+  border: 3px rgb(47, 0, 255) solid;
+  border-radius: 8px;
+}
+.button1 {
+  margin: 0px 0px 0px 190px;
+  border: 3px rgb(47, 0, 255) solid;
+  border-radius: 8px;
+}
+.links {
+  margin: 180px 0px 0px 200px;
+  filter: drop-shadow(10px 10px 8px rgb(0, 4, 255));
+}
+
+/* ---------------------------About----------------------------------------------------------------- */
+
+/* .about_intro {
+  margin: -250px 0px 0px 50px;
+} */
+
+@keyframes gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animate-gradient {
+  background-size: 300% 300%;
+  animation: gradient 10s ease infinite;
+}
+
+.floating {
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+
+/* _________________________________education__________________________________ */
+
+.education_details {
+  box-shadow: 0px 0px 50px 50px rgba(255, 255, 255, 0.808);
+  background-color: #bfdbfe9d;
+}
