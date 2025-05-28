@@ -48,6 +48,25 @@
   min-height: -100px;
 } */
 
+.nav-link {
+  position: relative;
+  text-decoration: none;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 3px;
+  background-color: #0400fa; /* Tailwind's blue-800 */
+  transition: width 0.3s ease-in-out;
+}
+
+.nav-link:hover::after {
+  width: 85%;
+}
 
 .logo {
   top: 0;
