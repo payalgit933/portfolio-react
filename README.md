@@ -18,13 +18,6 @@ This project showcases my educational background, skills, and contact informatio
 
 ---
 
-## 📷 Preview
-
-![Portfolio Screenshot](./screenshot.png)  
-*(Add a screenshot named `screenshot.png` to your repo to show a preview)*
-
----
-
 ## 🛠️ Tech Stack
 
 - **Frontend:** React.js
