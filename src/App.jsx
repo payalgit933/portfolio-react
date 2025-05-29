@@ -6,8 +6,9 @@ import About from './components/About'
 import Education from './components/Education'
 import Skills from './components/Skills'
 import Contact from './components/Contact'
-import NotFoundPage from './components/NotFoundPage'
-import Footer from './components/Footer';
+import Footer from './components/Footer'
+
+
 
 
 function App() {
@@ -23,5 +24,6 @@ function App() {
     </div>
   )
 }
+
 
 export default App

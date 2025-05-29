@@ -1,12 +1,14 @@
 import React from 'react';
 import Header from './Header';
 
+
 function Education() {
   const milestones = [
     { year: '2020', title: '10th', school: "R.S. Central School", icon: '📘' },
     { year: '2022', title: '12th', school: 'S.D.S. Inter College', icon: '📗' },
     { year: '2022 - 2025', title: 'B.A.', school: 'Patliputra University', icon: '🎓' },
   ];
+
 
   return (
     <div
@@ -22,6 +24,7 @@ function Education() {
         <div className="min-h-screen">
           <Header />
           <h1 className="text-center text-5xl font-bold text-blue-900 mb-12 my-8">Education</h1>
+
 
           <div className="education_details relative border-l-8 border-blue-700 pl-10 max-w-3xl mx-auto space-y-10">
             {milestones.map((m, i) => (
@@ -46,5 +49,6 @@ function Education() {
     </div>
   );
 }
+
 
 export default Education;

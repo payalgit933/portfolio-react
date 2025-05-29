@@ -3,6 +3,7 @@ import Header from './Header';
 import { FaGithub } from "react-icons/fa";
 import { Typewriter } from 'react-simple-typewriter';
 
+
 function Profile() {
     return (
         <div id="profile" style={{
@@ -25,6 +26,7 @@ function Profile() {
                     />
                 </h1>
 
+
                 <h3 className="m-3 font-bold text-xl text-blue-700">Full-Stack Developer</h3>
                 <p className="text-lg">
                     I’m a passionate Full-Stack Developer skilled in building responsive web applications using <br />
@@ -33,10 +35,12 @@ function Profile() {
                 </p>
             </div>
 
+
             <div className="button absolute ">
                 <a href="#contact"><button className="cursor-pointer button1 m-3 px-4 py-2 bg-indigo-600 hover:bg-indigo-700 text-white font-bold rounded transition transform hover:scale-130 duration-300">Hire Me</button></a>
                 <button className="cursor-pointer button1 m-3 px-4 py-2 bg-indigo-600 hover:bg-indigo-700 text-white font-bold rounded transition transform hover:scale-130 duration-300">Let's Talk</button>
             </div>
+
 
             <div className="links absolute">
                 <a href="https://github.com/payalgit933" target="_blank">
@@ -46,5 +50,6 @@ function Profile() {
         </div>
     );
 }
+
 
 export default Profile;

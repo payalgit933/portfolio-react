@@ -1,45 +1,14 @@
-import React from 'react';
+import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaGithub, FaLinkedin } from 'react-icons/fa';
 
-const Footer = () => {
+function Footer() {
   return (
-    <footer style={styles.footer}>
-      <div style={styles.container}>
-        <p style={styles.text}>© {new Date().getFullYear()} Payal. All rights reserved.</p>
-        <div style={styles.links}>
-          <a href="#profile" style={styles.link}>Profile</a>
-          <a href="#about" style={styles.link}>About</a>
-          <a href="#contact" style={styles.link}>Contact</a>
-        </div>
+    <footer className="bg-blue-900 text-white py-2">
+      
+      <div className="text-center text-sm text-gray-400 py-3">
+        &copy; {new Date().getFullYear()} Payal. All rights reserved.
       </div>
+
     </footer>
   );
-};
-
-const styles = {
-  footer: {
-    backgroundColor: '#1f1f1f',
-    color: '#fff',
-    padding: '20px 0',
-    textAlign: 'center'
-  },
-  container: {
-    maxWidth: '960px',
-    margin: '0 auto',
-    padding: '0 20px'
-  },
-  text: {
-    marginBottom: '10px'
-  },
-  links: {
-    display: 'flex',
-    justifyContent: 'center',
-    gap: '20px',
-    flexWrap: 'wrap'
-  },
-  link: {
-    color: '#61dafb',
-    textDecoration: 'none'
-  }
-};
-
+}
 export default Footer;
