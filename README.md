@@ -26,7 +26,8 @@ This project showcases my educational background, skills, and contact informatio
 - **Slider:** Swiper.js
 
 ---
-
+# Demo
+![Screenshot](Screenshot.png)
 ## 📦 Installation
 
 ```bash
